@@ -1,0 +1,39 @@
+body {color: Aquamarine;
+font-family: arial, helvetica, sans-serif; }
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+.image-gallery {
+    margin: 2vw;
+figure {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    color: #666;
+    font-style: italic;
+}.
+image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-gallery figure {
+    flex: 0 1 200px;
+    margin: 1rem;
